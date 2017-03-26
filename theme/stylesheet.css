@@ -11,3 +11,74 @@
     --------------------------------------------------------------
 */
 
+body {
+    color: #006600;
+    font-size: 65.5%; /* This sets the default font size to be equivalent to 10px */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #555555));
+    -o-background-image: linear-gradient(top, #f9f9f9 0%, #555 100%);
+    -ms-background-image: linear-gradient(top, #f9f9f9 0%, #555 100%);
+    background: -moz-linear-gradient(center top , #f9f9f9 0%, #555 100%) repeat scroll 0% 0% #333;
+}
+
+a, a:active, a:visited, .button {
+    color: #006600;
+}
+
+a:hover {
+    color: #d46400;
+}
+
+.pagination * {
+    color: #006600 !important;
+    display: inline !important;
+    background: none !important;
+    border: none;
+}
+
+#header-subsilver, #wrap {
+    max-width: 1148px;
+    padding: 0.5em;
+    box-shadow: gray 0 10px 10px 1px;
+}
+
+#header-subsilver {
+    margin: 0 auto;
+    background: #333;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+#header-subsilver * {
+    color: #fff;
+}
+
+#header-subsilver #search-box {
+    display: none;
+}
+
+#logo {
+    background-color: #333;
+    padding: 0 25px 0px 5px;
+    height: 115px;
+}
+
+#wrap {
+    background: #eff3db;
+    margin: 0 auto;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+.navbar, .row, .body-blok, .panel, .post {
+    background: #cee5ad !important;
+}
+
+.forabg, .forumbg, .body-blok-h3 h3, #subsilver-nav-topic {
+    background: #a9c592;
+}
+
+.content h2, .panel h2 {
+    color: #006600;
+}
+
