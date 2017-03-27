@@ -20,6 +20,10 @@ body {
     background: -moz-linear-gradient(center top , #f9f9f9 0%, #555 100%) repeat scroll 0% 0% #333;
 }
 
+h3 {
+    color: #006600;
+}
+
 a,
 a:active,
 a:visited,
