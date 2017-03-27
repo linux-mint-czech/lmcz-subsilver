@@ -20,7 +20,10 @@ body {
     background: -moz-linear-gradient(center top , #f9f9f9 0%, #555 100%) repeat scroll 0% 0% #333;
 }
 
-a, a:active, a:visited, .button {
+a,
+a:active,
+a:visited,
+.button {
     color: #006600;
 }
 
@@ -35,7 +38,8 @@ a:hover {
     border: none;
 }
 
-#header-subsilver, #wrap {
+#header-subsilver,
+#wrap {
     max-width: 1148px;
     padding: 0.5em;
     box-shadow: gray 0 10px 10px 1px;
@@ -52,7 +56,8 @@ a:hover {
     color: #fff;
 }
 
-#header-subsilver #search-box {
+#header-subsilver
+#search-box {
     display: none;
 }
 
@@ -79,15 +84,28 @@ a:hover {
     border-right: 1px solid;
 }
 
-.navbar, .row, .body-blok, .panel, .post {
+.navbar,
+.row,
+.body-blok,
+.panel,
+.post {
+    background: #cee5ad;
+}
+
+.row:hover {
     background: #cee5ad !important;
 }
 
-.forabg, .forumbg, .body-blok-h3 h3, #subsilver-nav-topic {
+.forabg,
+.forumbg,
+.body-blok-h3 h3,
+#subsilver-nav-topic,
+#subsilver-nav-topic .post {
     background: #a9c592;
 }
 
-.content h2, .panel h2 {
+.content h2,
+.panel h2 {
     color: #006600;
 }
 
