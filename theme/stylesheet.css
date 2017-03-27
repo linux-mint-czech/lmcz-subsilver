@@ -98,7 +98,8 @@ a:hover {
 .row,
 .body-blok,
 .panel,
-.post {
+.post,
+.tab.activetab a {
     background: #cee5ad;
 }
 
@@ -117,5 +118,9 @@ a:hover {
 .content h2,
 .panel h2 {
     color: #006600;
+}
+
+.navigation a {
+    background: none;
 }
 
