@@ -56,10 +56,19 @@ a:hover {
     display: none;
 }
 
+.site-description {
+    width: 100%;
+    text-align: center;
+}
+
 #logo {
-    background-color: #333;
-    padding: 0 25px 0px 5px;
-    height: 115px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#logo img {
+    max-width: 100%;
 }
 
 #wrap {
