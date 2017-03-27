@@ -29,6 +29,16 @@ a:visited,
 
 a:hover {
     color: #d46400;
+    border-color: #d46400;
+}
+
+.button:hover,
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+    color: #d46400;
+    border-color: #d46400;
 }
 
 .pagination * {
