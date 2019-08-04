@@ -25,14 +25,16 @@
 <!--
 	phpBB style name: Linux-mint-czech.cz Subsilver
 	Based on style:   AllanStyle-SUBSILVER
-	Modified by:  Linux-mint-czech.cz ( https://www.linut-mint-czech.cz/ )
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Based on style:   subsilver2 (this is the default phpBB3 style)
+	Original author:  Linux-mint-czech.cz ( https://www.linut-mint-czech.cz/ )
 -->
 
 <!-- IF S_ALLOW_CDN -->
 <script>
 	WebFontConfig = {
 		google: {
-			families: ['Open+Sans:600:cyrillic-ext,latin,greek-ext,greek,vietnamese,latin-ext,cyrillic']
+			families: ['Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese']
 		}
 	};
 
@@ -47,6 +49,7 @@
 <link href="{T_FONT_AWESOME_LINK}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/AllanStyle-SUBSILVER/theme/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{T_STYLESHEET_LINK}" rel="stylesheet">
+<link href="{T_STYLESHEET_LANG_LINK}" rel="stylesheet">
 
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
 	<link href="{ROOT_PATH}styles/AllanStyle-SUBSILVER/theme/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
@@ -76,7 +79,7 @@
 <div id="header-subsilver">
 	<a id="top" class="top-anchor" accesskey="t"></a>
 		<div class="headerbar" role="banner">
-			<!-- EVENT overall_header_headerbar_before -->
+		<!-- EVENT overall_header_headerbar_before -->
 			<div class="inner">
 
 			<div id="site-description" class="site-description">
