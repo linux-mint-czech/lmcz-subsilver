@@ -212,9 +212,10 @@
 
 		<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
 			<li class="rightside">
-				<a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}" role="menuitem">
-					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>{L_SEARCH}</span>
-				</a>
+        <form action="search.php">
+          <input name="keywords" size="31" placeholder="Hledat">
+          <button type="submit"><i class="icon fa-search fa-fw" aria-hidden="true"></i></button>
+        </form>
 			</li>
 		<!-- ENDIF -->
 	</ul>
