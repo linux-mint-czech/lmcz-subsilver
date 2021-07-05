@@ -40,7 +40,7 @@ a:hover {
     border-color: #d46400;
 }
 
-.pagination * {
+.pagination a.button {
     color: #006600 !important;
     display: inline !important;
     background: none !important;
